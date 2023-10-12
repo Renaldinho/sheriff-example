@@ -1,6 +1,6 @@
 import {Component, inject} from '@angular/core';
 import {ManageProfileService} from "../../data/manage-profile.service";
-import {AuthenticationService} from "../../../sign-in/data/authentication.service";
+import {AuthenticationService} from "../../../sign-in";
 
 @Component({
   selector: 'app-manage-profile',
